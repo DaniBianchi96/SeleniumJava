@@ -1,0 +1,164 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Registrar",
+        "description": "",
+        "id": "cadastro-de-usuário:;registrar",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 3870648100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "acesso o cadastro de usuario",
+            "match": {
+              "location": "CadastroSteps.acessarTelaCadastro()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 4693312200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu preencho o formulario do cadastro",
+            "match": {
+              "location": "CadastroSteps.criar_formulario()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 107190400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico em registrar",
+            "match": {
+              "location": "CadastroSteps.clico_em_registrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 207400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "O cadastro é realizado com sucesso",
+            "match": {
+              "location": "CadastroSteps.o_cadastro_é_realizado_com_sucesso()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cadastro"
+          },
+          {
+            "name": "@cadastro-sucesso"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de usuário:",
+    "description": "",
+    "id": "cadastro-de-usuário:",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/cadastro_usuario.feature",
+    "tags": [
+      {
+        "name": "@cadastro",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 3
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Visualizar código de desconto",
+        "description": "",
+        "id": "receber-o-cupom-desconto-da-qazando;visualizar-código-de-desconto",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "que estou no site da qazando",
+            "match": {},
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "eu preencho o meu e-mail",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "clico em ganhar cupom",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "eu vejo o código de desconto",
+            "match": {},
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "xpto",
+        "description": "",
+        "id": "receber-o-cupom-desconto-da-qazando;xpto",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "que tenho cupom gerado",
+            "match": {},
+            "keyword": "Dado "
+          }
+        ]
+      }
+    ],
+    "name": "Receber o cupom desconto da qazando",
+    "description": "    Eu como usuário da qazando\n    Quero receber um cupom de desconto\n    Para comprar um curso com valor reduzido",
+    "id": "receber-o-cupom-desconto-da-qazando",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/desconto.feature",
+    "tags": []
+  }
+]
